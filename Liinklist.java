@@ -29,6 +29,14 @@ public class Liinklist {
         while(i.hasNext()){
             System.out.println(i.next());
         }
+//        uc5
+        list.addFirst(56);
+        list.add(30);
+        list.add(70);
+        list.removeFirst();
+        while(i.hasNext()){
+            System.out.println(i.next());
+        }
     }
 
 }
