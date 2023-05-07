@@ -66,6 +66,18 @@ public class Liinklist {
         while (i.hasNext()) {
             System.out.println(i.next());
         }
+ //     uc 9
+        list.addFirst(56);
+        list.add(30);
+        list.add(70);
+        indx=list.indexOf(30);
+        list.add(indx,40);
+        indx=list.indexOf(40);
+        list.remove(indx);
+        System.out.println("Linkedlist size is " + list.size());
+        while (i.hasNext()) {
+            System.out.println(i.next());
+        }
     }
 
 }
