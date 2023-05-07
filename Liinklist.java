@@ -55,6 +55,17 @@ public class Liinklist {
                 break;
             }
         }
+//      uc8
+        int indx=1;
+        list.addFirst(56);
+        list.add(30);
+        list.add(70);
+        indx=list.indexOf(30);
+        list.add(indx,40);
+
+        while (i.hasNext()) {
+            System.out.println(i.next());
+        }
     }
 
 }
