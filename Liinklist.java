@@ -1,6 +1,7 @@
 package Bridgelabz.Linklist;
 
 
+import java.util.Iterator;
 import java.util.LinkedList;
 
 public class Liinklist {
@@ -20,7 +21,14 @@ public class Liinklist {
         list.add(30);
         list.add(70);
 
-
+//        uc4
+        list.addFirst(56);
+        list.add(30);
+        list.add(1,70);
+        Iterator i = list.iterator();
+        while(i.hasNext()){
+            System.out.println(i.next());
+        }
     }
 
 }
