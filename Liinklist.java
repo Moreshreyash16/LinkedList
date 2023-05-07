@@ -1,8 +1,8 @@
 package Bridgelabz.Linklist;
 
-
 import java.util.Collections;
 import java.util.Comparator;
+
 import java.util.Iterator;
 import java.util.LinkedList;
 
@@ -80,11 +80,13 @@ public class Liinklist {
         while (i.hasNext()) {
             System.out.println(i.next());
         }
+
 //      uc10
         Collections.sort(list);
         while (i.hasNext()) {
             System.out.println(i.next());
         }
+
     }
 
 }
