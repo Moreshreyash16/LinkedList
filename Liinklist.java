@@ -11,6 +11,9 @@ public class Liinklist {
         list.add(30);
         list.add(56);
 
+        list.addFirst(70);
+        list.add(30);
+        list.add(56);
     }
 
 }
