@@ -8,20 +8,6 @@ public class Liinklist {
 
     public static void main(String[] args) {
         LinkedList list = new LinkedList<Integer>();
-        list.add(70);
-        list.add(30);
-        list.add(56);
-//        uc 2
-        list.addFirst(70);
-        list.add(30);
-        list.add(56);
-
-//        uc 3
-        list.addFirst(56);
-        list.add(30);
-        list.add(70);
-
-//        uc4
         list.addFirst(56);
         list.add(30);
         list.add(1,70);
